@@ -1,5 +1,5 @@
 # Editing Plugins
-Whether you want to make your own plugins for a private instance of Cube or you want to make pull requests for the official instance/GitHub of Cube, creating and editing plugins is an essential part of the bot. **Please note that for this tutorial, you will need fairly advanced knowledge of Python.**
+Whether you want to make your own plugins for a private instance of WindowsBot or you want to make pull requests for the official instance/GitHub of WindowsBot / Cube, creating and editing plugins is an essential part of the bot. **Please note that for this tutorial, you will need fairly advanced knowledge of Python.**
 
 Each plugin is very simply laid out and uses definitions and attributes.
 

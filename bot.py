@@ -139,7 +139,7 @@ class Application():
 dclient = discord.Client()
 # Defines the Discord Client.
 
-logger = logging.getLogger("cube")
+logger = logging.getLogger("windowsbot")
 # Defines the logger.
 
 app = Application(dclient, logger, using_uvloop)
@@ -212,7 +212,7 @@ async def cmd_handler(msg):
                                 owner = dclient.get_server(app.config["owner_server_id"]).get_member(app.config["owner_user_id"])
                                 formatted_msg = "New command bug report!\n\nMessage that triggered: `{}`\n\nError: `{}`".format(msg.content, e)
                                 await dclient.send_message(owner, formatted_msg)
-                                await dclient.send_message(msg.channel, "Bug report submitted! Thanks for making Cube better.")
+                                await dclient.send_message(msg.channel, "Bug report submitted! Thanks for making WindowsBot better.")
                         except:
                             pass
                 else:

@@ -7,7 +7,7 @@
     "mysql_hostname" : "HOSTNAME",
     "mysql_username" : "USERNAME",
     "mysql_password" : "PASSWORD",
-    "mysql_db" : "cube",
+    "mysql_db" : "windowsbot",
     "default_prefix" : "/",
     "game" : "my cool bot"
 }
