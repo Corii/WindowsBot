@@ -1,0 +1,13 @@
+{
+    "bot_name" : "My Cool Bot",
+    "version" : "1.0.0",
+    "token" : "INSERT_TOKEN",
+    "owner_server_id" : "SERVER_ID",
+    "owner_user_id" : "USER_ID",
+    "mysql_hostname" : "HOSTNAME",
+    "mysql_username" : "USERNAME",
+    "mysql_password" : "PASSWORD",
+    "mysql_db" : "cube",
+    "default_prefix" : "/",
+    "game" : "my cool bot"
+}
